@@ -1,17 +1,12 @@
 # Geant4-Project-CMakeList.txt-and-Shell-for-Lazy-Guy-
-These two file is for those who programing Geant4 project, and don't wan't to set CMakeList.txt for each project.
-The CMakeList.txt file will automatically get your project name, so you don't need to set mannually.
-To use them, you just need to copy them into your geant4 project directory, and use "bash RunG4.sh" in the terminal.
+These two files are for those who are programming a Geant4 project and don’t want to set up the CMakeLists.txt for each project. The CMakeLists.txt file will automatically detect your project name, so you don’t need to set it manually. To use them, simply copy them into your Geant4 project directory and run “bash RunG4.sh” in the terminal.
 
+NOTE: TO USE THESE TOOLS, YOUR PROJECT DIRECTORY MUST CONTAIN AT LEAST THE FOLLOWING FILES:
+	•	YOUR_MAIN.cc
+	•	init_vis.mac
+	•	run.mac
+	•	run.jpg
+	•	vis.mac
 
-NOTE: TO USE THESE TOOLS, YOUR PROJECT DIRECTORY MUST HAVE AT LEAST
-
-1. YOUR_MAIN.cc
-2. init_vis.mac
-3. run.mac
-4. run.jpg
-5. vis.mac
-
-EVEN IF THOSE .mac FILES ARE EMPTY, YOU STILL NEED THEM, OR THESE TOOLS CAN'T WORK. 
-
+EVEN IF THESE .mac FILES ARE EMPTY, YOU STILL NEED THEM, OR THESE TOOLS WON’T WORK.
 
