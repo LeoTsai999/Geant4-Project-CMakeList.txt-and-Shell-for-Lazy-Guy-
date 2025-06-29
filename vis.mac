@@ -1,0 +1,16 @@
+# vis.mac
+/vis/open OGL 600x600-0+0 # ????????????
+
+# Use this open statement to create an OpenInventor view:
+#/vis/open OI
+
+/vis/viewer/set/viewpointVector 1 1 1 # 從(1,1,1)往模擬物件看
+#/vis/viewer/ser/autoRefresh true # 有東西改變的時候會自動刷新頁面
+
+/vis/drawVolume # 把模擬的Volume畫出來
+
+/vis/scene/add/trajectories smooth # 顯示粒子軌跡
+/vis/scene/endOfEventAction accumulate # 運行多個事件時，會保留結果。如果不希望累積則設為refresh
+/vis/scene/add/scale 10 cm # 調整視窗縮放比例
+/vis/scene/add/axes
+/vis/scene/add/eventID

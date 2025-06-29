@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 
 # Automatically determine the project name from the current source directory name
 get_filename_component(PROJ_NAME ${CMAKE_CURRENT_SOURCE_DIR} NAME)
